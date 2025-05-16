@@ -1,3 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-  console.log("S.R Sons website loaded.");
+const menuToggle = document.querySelector('.menu-toggle');
+const sideMenu = document.getElementById('side-menu');
+
+menuToggle.addEventListener('click', () => {
+  sideMenu.classList.toggle('show');
 });
